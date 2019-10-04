@@ -11,18 +11,22 @@
     background-color: grey;
     text-align: center;
     display: flex;
-    align-items: center;
     border: none;
+}
 
+.text {
+    display: block;
+    margin: auto;
 }
 
 .second {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 30%;
+    padding: 7px;
+    flex-wrap: wrap;
 }
-
 
 .box {
     padding-top: 5px;
@@ -52,7 +56,6 @@
 
 }
 
-.text {}
 
 p {
     font-size: 12px;
@@ -66,7 +69,9 @@ button {
     height: 20px;
 }
 
-
-/* *{
-    outline: 1px solid red
-} */
+@media (max-width: 460px) {
+    button {
+        font-size: 10px;
+        height: 13px;
+    }
+}

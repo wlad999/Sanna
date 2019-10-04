@@ -56,7 +56,9 @@ const Posts = props => {
         {arrOfPosts.map(post => {
           return (
             <div className={styles.page} key={post.id}>
-              <div className={styles.album}>{post.title}</div>
+              <div className={styles.album}>
+                <p className={styles.text}>{post.title}</p>
+              </div>
               <div className={styles.second}>
                 <button onClick={() => showModal(post.id, post.title)}>
                   VIEW

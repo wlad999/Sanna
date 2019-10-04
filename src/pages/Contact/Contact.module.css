@@ -4,16 +4,22 @@
     flex-direction: column;
 }
 
+.text {
+    color: #BE380D;
+    text-shadow: 2px 2px 2px black
+}
+
 .main {
     flex: 1;
     width: 100%;
     text-align: end;
     margin: 0;
-    background-image: url(../../asset/images/slider2.jpg);
+    background-image: url(../../asset/images/waiting.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     padding: 5px;
+    text-shadow: 2px 2px 2px black;
     background-position: center;
 
 }

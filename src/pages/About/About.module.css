@@ -13,21 +13,34 @@
     width: 100%;
     text-align: start;
     margin: 0;
-    background-image: url(../../asset/images/slider0.jpg);
+    background-image: url(../../asset/images/193515-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 10px;
     background-position: center;
+    color: white;
+    text-shadow: 2px 2px 2px black
 }
 
 .about {
     margin: 5px;
 }
 
+p {
+    font-size: 12px;
+}
+
+@media (min-width: 460px) {
+    p {
+        font-size: 18px;
+    }
+}
+
+/* 
 .footer {
     flex: 0 0 auto;
 }
 
 .header {
     flex: 0 0 auto;
-}
+} */

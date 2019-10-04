@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Header.module.css";
-// import windowSize from "react-window-size";
 import { NavLink } from "react-router-dom";
 const Header = () => (
   <>

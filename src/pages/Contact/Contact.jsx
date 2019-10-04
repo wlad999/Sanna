@@ -19,7 +19,7 @@ const Contact = () => (
         </a>
       </div>
       <NavLink className={styles.nav} to={"/"}>
-        <h3>Don`t thinking - call us right now!</h3>
+        <h2 className={styles.text}>Don`t thinking - call us right now!</h2>
       </NavLink>
     </main>
     <div className={styles.header}>
