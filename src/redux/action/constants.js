@@ -1,0 +1,6 @@
+export const actionTypes = {
+  GET_POSTS: "GET_POSTS",
+  GET_PHOTOS: "GET_PHOTOS",
+  GET_USERS: "GET_USERS",
+  SET_CARRENT_PAGE: "SET_CARRENT_PAGE"
+};

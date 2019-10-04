@@ -1,0 +1,32 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1;
+    width: 100%;
+    text-align: end;
+    margin: 0;
+    background-image: url(../../asset/images/slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 5px;
+    background-position: center;
+
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+.header {
+    flex: 0 0 auto;
+}
+
+.nav {
+    text-decoration: none;
+    color: black;
+}
