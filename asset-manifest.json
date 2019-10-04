@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Sanna/static/css/main.55b80942.chunk.css",
+    "main.js": "/Sanna/static/js/main.e243de0b.chunk.js",
+    "main.js.map": "/Sanna/static/js/main.e243de0b.chunk.js.map",
+    "runtime~main.js": "/Sanna/static/js/runtime~main.a4f025a7.js",
+    "runtime~main.js.map": "/Sanna/static/js/runtime~main.a4f025a7.js.map",
+    "static/js/2.3645feea.chunk.js": "/Sanna/static/js/2.3645feea.chunk.js",
+    "static/js/2.3645feea.chunk.js.map": "/Sanna/static/js/2.3645feea.chunk.js.map",
+    "index.html": "/Sanna/index.html",
+    "precache-manifest.d3d63dccc645071d984b4be47bf4c39d.js": "/Sanna/precache-manifest.d3d63dccc645071d984b4be47bf4c39d.js",
+    "service-worker.js": "/Sanna/service-worker.js",
+    "static/css/main.55b80942.chunk.css.map": "/Sanna/static/css/main.55b80942.chunk.css.map",
+    "static/media/About.module.css": "/Sanna/static/media/slider0.a6f66922.jpg",
+    "static/media/Contact.module.css": "/Sanna/static/media/slider2.67b5507d.jpg"
+  }
+}
