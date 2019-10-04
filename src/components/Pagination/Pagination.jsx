@@ -3,7 +3,15 @@ import styles from "./Pagination.module.css";
 const Pagination = props => {
   const { currentPage, pages, setCurrentPage } = props;
   return (
-    <div>
+    <div className={styles.main}>
+      <span
+        className={styles.arrow}
+        onClick={() => {
+          setCurrentPage(currentPage - 1);
+        }}
+      >
+        {"<"}
+      </span>
       {pages.map(p => {
         return (
           <span
@@ -17,6 +25,14 @@ const Pagination = props => {
           </span>
         );
       })}
+      <span
+        className={styles.arrow}
+        onClick={e => {
+          setCurrentPage(currentPage + 1);
+        }}
+      >
+        {">"}
+      </span>
     </div>
   );
 };

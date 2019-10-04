@@ -20,14 +20,15 @@ const Posts = props => {
   if (props.posts && props.posts.length > 0) {
     pagesCount = Math.ceil(props.posts.length / pageSize);
   }
-
-  if (currentPage - pagesCount === 1) {
-    setCurrentPage(currentPage - 1);
-  }
-
   let pages = [];
   for (let i = 1; i <= pagesCount; i++) {
     pages.push(i);
+  }
+  if (currentPage === 0) {
+    setCurrentPage(pagesCount);
+  }
+  if (currentPage > pagesCount) {
+    setCurrentPage(1);
   }
 
   let reversPosts = props.posts.map(el => el).reverse();
@@ -39,8 +40,6 @@ const Posts = props => {
       return el;
     }
   });
-  console.log("props.users", props.users);
-  console.log("props.posts", props.posts);
 
   const userNameOfAlbum = userId => {
     return props.users.find(user => user.id === userId);
@@ -57,14 +56,12 @@ const Posts = props => {
         {arrOfPosts.map(post => {
           return (
             <div className={styles.page} key={post.id}>
-              <div className={styles.album}>ALBUM NAME: {post.title}</div>
+              <div className={styles.album}>{post.title}</div>
               <div className={styles.second}>
                 <button onClick={() => showModal(post.id, post.title)}>
                   VIEW
                 </button>
-                <div className={styles.text}>
-                  {userNameOfAlbum(post.userId).name}
-                </div>
+                <div>{userNameOfAlbum(post.userId).name}</div>
               </div>
             </div>
           );

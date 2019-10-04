@@ -15,9 +15,11 @@ const Photos = props => {
   if (props.photos && props.photos.length > 0) {
     pagesCount = Math.ceil(props.photos.length / pageSize);
   }
-
-  if (PhotoPage - pagesCount === 1) {
-    setPhotoPage(PhotoPage - 1);
+  if (PhotoPage === 0) {
+    setPhotoPage(pagesCount);
+  }
+  if (PhotoPage > pagesCount) {
+    setPhotoPage(1);
   }
 
   let pages = [];
@@ -36,19 +38,23 @@ const Photos = props => {
   });
 
   return (
-    <div className={styles.box}>
-      <button onClick={closeModal}>X</button>
-      <div>{props.currentAlbum}</div>
-      <div className={styles.scroll}>
-        {arrOfPhotos.map(post => {
-          return <img src={post.thumbnailUrl} alt="" />;
-        })}
+    <div className={styles.container}>
+      <div className={styles.box}>
+        <div className={styles.firstLine}>
+          <div>{props.currentAlbum}</div>
+          <button onClick={closeModal}>X</button>
+        </div>
+        <div className={styles.scroll}>
+          {arrOfPhotos.map(post => {
+            return <img src={post.thumbnailUrl} alt="" />;
+          })}
+        </div>
+        <Pagination
+          pages={pages}
+          currentPage={PhotoPage}
+          setCurrentPage={setPhotoPage}
+        />
       </div>
-      <Pagination
-        pages={pages}
-        currentPage={PhotoPage}
-        setCurrentPage={setPhotoPage}
-      />
     </div>
   );
 };

@@ -51,7 +51,7 @@ class PostsContainer extends React.Component {
             "Waiting litle bet"
           )}
         </div>
-        <Footer className={styles.footer} />
+        <Footer />
       </div>
     );
   }

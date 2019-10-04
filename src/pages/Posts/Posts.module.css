@@ -1,21 +1,18 @@
 .page {
     margin: 3px;
-    font-size: 12px;
+    font-size: 10px;
     width: 30%;
     height: 25vh;
     border: 1px solid grey;
-    /* display: flex;
-    flex-direction: column; */
-
 }
 
 .album {
-
     height: 70%;
     background-color: grey;
     text-align: center;
-    /* display: flex;
-    margin: auto; */
+    display: flex;
+    align-items: center;
+    border: none;
 
 }
 
@@ -51,23 +48,15 @@
     margin: 0;
     font-size: 12px;
     text-align: start;
-    padding: 5px
+    padding: 5px;
+
 }
 
-.text {
-    display: flex;
-    margin: auto;
-    color: black;
-    /* padding-left: 20% */
-}
+.text {}
 
 p {
     font-size: 12px;
     font-weight: bold;
-    margin: 5px;
-}
-
-.but {
     margin: 5px;
 }
 
