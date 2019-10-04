@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Sanna/static/css/main.1de33957.chunk.css",
+    "main.css": "/Sanna/static/css/main.418d6c98.chunk.css",
     "main.js": "/Sanna/static/js/main.7c03d18b.chunk.js",
     "main.js.map": "/Sanna/static/js/main.7c03d18b.chunk.js.map",
     "runtime~main.js": "/Sanna/static/js/runtime~main.a4f025a7.js",
@@ -8,9 +8,9 @@
     "static/js/2.91f82bb1.chunk.js": "/Sanna/static/js/2.91f82bb1.chunk.js",
     "static/js/2.91f82bb1.chunk.js.map": "/Sanna/static/js/2.91f82bb1.chunk.js.map",
     "index.html": "/Sanna/index.html",
-    "precache-manifest.4280aa612370e59e5f84b0481abc7ccb.js": "/Sanna/precache-manifest.4280aa612370e59e5f84b0481abc7ccb.js",
+    "precache-manifest.4de79cf6d182154cd7af5055a38111c3.js": "/Sanna/precache-manifest.4de79cf6d182154cd7af5055a38111c3.js",
     "service-worker.js": "/Sanna/service-worker.js",
-    "static/css/main.1de33957.chunk.css.map": "/Sanna/static/css/main.1de33957.chunk.css.map",
+    "static/css/main.418d6c98.chunk.css.map": "/Sanna/static/css/main.418d6c98.chunk.css.map",
     "static/media/About.module.css": "/Sanna/static/media/slider0.a6f66922.jpg",
     "static/media/Contact.module.css": "/Sanna/static/media/slider2.67b5507d.jpg"
   }
